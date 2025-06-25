@@ -14,3 +14,19 @@ Feature renaming and formatting
 Conversion to numerical types
 Melting and transforming datasets
 Final clean dataset exported as data_cleaned.csv
+
+# week2
+
+This notebook represents the foundational phase of our data science workflow—Exploratory Data Analysis (EDA) and Data Preprocessing. The objective was to transform a raw dataset into a clean, structured format suitable for modeling and statistical analysis. Below are the key technical steps performed:
+
+✅ Data Filtering & Row Elimination: Rows containing metadata markers (e.g., "Text" in SCALE or Decimals) were removed to retain only relevant, quantifiable observations.
+
+🗂️ Feature Selection: Non-informative columns such as "Country name", "Series code", "SCALE", and "Decimals" were dropped to reduce dimensionality and enhance processing efficiency.
+
+⚠️ Missing Value Treatment: Placeholder strings like ".." and empty cells were converted to NaN, enabling easier detection and later imputation or exclusion, as required.
+
+🔄 Data Type Standardization: All columns were coerced into appropriate numerical data types, ensuring compatibility with statistical methods and machine learning models.
+
+📊 Initial Statistical Profiling (optional if added later): Summary statistics and data distribution checks can now be applied on this cleaned dataset for further insights.
+
+This preprocessing pipeline ensures the dataset meets the requirements for robust modeling, reduces noise, and minimizes data leakage risks. With this solid data foundation, the next phase will involve feature engineering, correlation analysis, and model training for predictive analytics.
