@@ -30,3 +30,28 @@ This notebook represents the foundational phase of our data science workflow—E
 📊 Initial Statistical Profiling (optional if added later): Summary statistics and data distribution checks can now be applied on this cleaned dataset for further insights.
 
 This preprocessing pipeline ensures the dataset meets the requirements for robust modeling, reduces noise, and minimizes data leakage risks. With this solid data foundation, the next phase will involve feature engineering, correlation analysis, and model training for predictive analytics.
+
+# week3 CO₂ Emissions Prediction: Model Building Phase
+
+This repository contains the Model Building Phase of a machine learning project to predict CO₂ emissions using World Bank datasets. This phase follows data preprocessing and focuses on selecting, training, evaluating, and fine-tuning models.
+
+Objective- To build and evaluate machine learning models that can accurately predict CO₂ emissions per capita using features extracted from historical socioeconomic and energy-related data.
+
+
+Features :-
+1. Feature selection based on correlation and domain relevance.
+2. Hyperparameter tuning using GridSearchCV.
+3. Model evaluation with metrics like R² Score, MAE, MSE, and RMSE.
+4. Visual comparison of model performances.
+
+Evaluation Metrics
+1. R² Score
+2. Mean Absolute Error (MAE)
+3. Mean Squared Error (MSE)
+4. Root Mean Squared Error (RMSE)
+
+Results
+1. Best model identified: XGBoost Regressor
+2. Highest R² Score among tested models.
+3. Generalization validated through test set performance.
+
